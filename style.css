@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: Arial;
+ }
+body {
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 280px;
+    height: 370px;
+    box-shadow: 5px 5px  #202020;
+    background-color: #333333;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+box-shadow: 5px 5px 15px 5px #000000;
+-webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+.display{
+    width: 250px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: #333333;
+    border: 1px solid black;
+    line-height: 40px;
+    text-align: right;
+    font-size: 30px;
+    padding: 5px;
+    color: #ffffff;
+    -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0)
+}
+.keypad{
+margin-left: 3px;
+}
+.keypad-table{
+
+}
+.key{
+    width: 60px;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 50px;
+    line-height: 50px;
+    background-color: #333333;
+    color: #ffffff;
+    cursor: pointer;
+    -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 5px 5px 5px 0px #000000c8, inset 4px 4px 15px 0px #000000bd, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+.key:hover {
+    background-color: rgb(43, 43, 43);
+}
+#AC {
+    background-color: rgb(191, 29, 29);
+    height: 102px;
+    line-height: 102px;
+}
+#AC:hover {
+    background-color: rgb(157, 21, 21);
+}
